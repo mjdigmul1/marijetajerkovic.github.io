@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Marijeta Jerković - O Meni</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+        
+        @font-face {
+            font-family: 'MarijetaJerkovicfont.ttf';
+            src: url('font/MarijetaJerkovicfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            color: white;
+        }
+
+        ul {	
+			padding: 20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+	    
+        li {	
+            display:inline; 
+			background-color:darkred;
+			padding: 20px;
+			border: 2px darkred;
+            
+		    }
+	    
+        li:active {
+            background-color:rgb(97, 138, 143);
+            } 
+		
+	li a {	
+        color:white; 
+		font-family: "Playfair Display"; 
+		text-transform: uppercase;
+		}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+
+    p {
+        font-family: 'Playfair Display';
+        font-size: normal;
+        font-weight: 100;
+        background-color: darkred;
+    }
+	
+    </style> 
+</head>
+
+<body>
+               <div class="naslovi">
+    <h1> Marijeta Jerković</h1>
+    <h2>Kolegij Digitalni multimedij 1</h2>
+	<h3><li style="float:right"><a class="active" href="index.html">Početna</a></li></h3>
+    </div>
+    
+        <nav>
+        <ul>
+            
+            <li><a href="o meni.html">O meni</a></li>
+            <li><a href="vježbe.html">Vježbe</a></li>
+            <li><a href="mojvideo.html">Video</a></li>
+        </ul>
+    </nav>     
+            </ul>
+        </nav>
+    
+        <div class="naslovi">
+        <h2>Reklama za pahuljice:</h2>
+        </div>
+		 <div class="text">
+            <p> Video sam radila u programu Adobe Premiere.<br>
+			Snimljen je sa mobitelom, te sam svaki kadar koji sam snimila spojila u jednu cijelinu.<br>
+			Svaki kadar sam posebno uredila i makla zvuk sa svih.<br>
+			U prvom videu sam napravila cinemagrafiju tako što sam napravila frame capture i, nakon obrade u Adobe Photoshopu,<br>
+			stavila sam obrađen frame poviše videa tako da samo pahuljice padaju, a pozadina je mirna.<br>
+			Koristila sam više video efekata, neki od njih su: scale, position, opacity i speed.<br>
+           
+        
+        </p>
+    </div>
+
+        <div>
+        <video controls class="center">
+            <source src="video/mojvideo_za_projektni.mp4" type="video/mp4"/>
+        </video>
+        </div>
+
+</body>
+</html>

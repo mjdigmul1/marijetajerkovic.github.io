@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+    font-family:"MarijetaJerkovicfont";
+    src: url('font/MarijetaJerkovicfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+
+}
+
+.naslovi h1 {
+    font-family: 'MarijetaJerkovicfont.ttf';
+    font-size: 500%;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+}
+
+.naslovi h2 {
+    font-family: 'Playfair Display';
+    text-align: center;
+    color: white;
+    background-color: darkred;
+}
+
+.naslovi h3 {
+    font-family: 'Playfair Display';
+    text-align: center;
+    color: white;
+    background-color: darkred;
+}
+
+.naslovi h4 {
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: darkred;
+}
+
+body {
+  
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/266/693/291/soft-light-bright-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Playfair Display';
+    font-size: normal;
+    color: white;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+video.center {
+
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    align-items: center;
+    }
+
+.text {
+    text-align: center;
+}
